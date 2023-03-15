@@ -1,4 +1,4 @@
-h1{
+/* h1{
 
     text-align: center;
     font-size: 60px;
@@ -19,7 +19,7 @@ h1{
 
 span{
     color: blueviolet;
-}
+}  */
 
 
 .colorUno {
@@ -32,4 +32,11 @@ span{
  
 .colorTres{
     background-color: #412688;
+}
+
+.encabezado{
+    background-color: #af1124;
+    font-size: 60px;
+    text-align: center;
+    color: white;
 }
