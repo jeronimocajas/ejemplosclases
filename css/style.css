@@ -1,11 +1,11 @@
 :root{
     --rojo:#af1124;
-    --naranja:#f72332;
+    --naranja:#f8382d;
     --azul:#412688;
     --rojooscuro:#af1124;
 }
 
- /* h1{
+ /* /* h1{
 
     text-align: center;
     font-size: 60px;
@@ -34,7 +34,13 @@ span{
 
 p{
     color: black;
-}   */
+}   
+.flexcontainer > div{
+
+    width:  400px;
+    height: 400px;
+
+} */
 
  
 
@@ -43,7 +49,7 @@ body{
     }
 
  h1{
-        margin: 0;
+        margin-top: 0;
  }
 
 
@@ -66,3 +72,56 @@ body{
     text-align: center;
     color: white;
 }
+
+.flexcontainer{
+
+    display: flex;
+    
+}
+
+.divIzquierdo{
+   background-color: var(--naranja);
+    width: 40%;        
+}
+
+.divDerecho{
+    background-color: var(--azul);
+    width: 50%;   
+    color: white;  
+    text-align: center;   
+    height: 600px;
+}
+
+.tipoLetraUno{
+    
+    font-size: 20px;
+
+}
+
+.tipoLetraDos{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.negrilla {
+    font-weight: bold;
+}
+
+.botique{
+    background-color: #fa8d20;
+    font-size: 20px;
+    
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.discord{
+    background-color: #5966f3;
+    font-size: 20px;
+    
+    margin-right: 30px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
