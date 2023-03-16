@@ -1,4 +1,11 @@
-/* h1{
+:root{
+    --rojo:#af1124;
+    --naranja:#f72332;
+    --azul:#412688;
+    --rojooscuro:#af1124;
+}
+
+ /* h1{
 
     text-align: center;
     font-size: 60px;
@@ -19,19 +26,38 @@ h1{
 
 span{
     color: blueviolet;
-}  */
+}  
+
+  h1, p{
+ text-align: center;
+}
+
+p{
+    color: black;
+}   */
+
+ 
+
+body{
+    background-color: var(--naranja);
+    }
+
+ h1{
+        margin: 0;
+ }
 
 
+/* Clases */
 .colorUno {
- background-color: #af1124;
+ background-color: var(--rojo)
 }
 
 .colorDos{
-    background-color: #f72332;
+    background-color: var(--naranja)
 }
  
 .colorTres{
-    background-color: #412688;
+    background-color: var(--azul)
 }
 
 .encabezado{
