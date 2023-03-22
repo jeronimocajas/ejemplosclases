@@ -5,19 +5,34 @@
 
 .flexContenedor {
     display: flex;
-    height: 300px;
     justify-content: space-between;
 }
 
 .divHijo1{
     width: 50%;
-    background-color: aquamarine;
-}
+}   
 
 .divHijo2{
     width: 40%;
-    background-color: beige;
 }
 
+.flex{
+    display: flex;
+}
 
+.hijo_1{
+    width: 40%;
+}
 
+.hijo_2{
+    width: 60%;
+}
+
+.flex_2{
+    display: flex;
+    justify-content:space-between ;
+}
+
+.div_3{
+    width: 25%;
+}
