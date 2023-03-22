@@ -1,0 +1,23 @@
+.h1{
+    color: blue;
+    text-align: center;
+}
+
+.flexContenedor {
+    display: flex;
+    height: 300px;
+    justify-content: space-between;
+}
+
+.divhijo1{
+    width: 50%;
+    background-color: aquamarine;
+}
+
+.divhijo2{
+    width: 40%;
+    background-color: beige;
+}
+
+
+
