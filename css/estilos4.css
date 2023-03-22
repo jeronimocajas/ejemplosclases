@@ -31,8 +31,13 @@
 .flex_2{
     display: flex;
     justify-content:space-between ;
+   
 }
 
 .div_3{
+   display: flex;
     width: 25%;
+    flex-direction: column;
+    text-align: center;
 }
+
