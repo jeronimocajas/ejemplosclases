@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo JS</title>
+    <script src="../js/utilidades.js"></script>
+</head>
+<body>
+    
+    <script>
+
+        var h1 = crearElementoConTexto("h1", "Tutorial Web");
+        var h2FrontEnd = crearElementoConTexto("h2", "Front End");
+        var h2Noticias = crearElementoConTexto("h2", "Noticias");
+
+
+        var ul = crearElemento("ul");
+        var liUno = crearElementoConTexto("li", "FrameWorks");
+        var liDos = crearElementoConTexto("li", "Librerias");
+        var liTres = crearElementoConTexto("li", "Ultimas Noticias");
+
+        adicionarHijo(ul,liUno);
+        adicionarHijo(ul,liDos);
+        adicionarHijo(ul,liTres);
+
+
+        var imagen = crearImagen("../recursos/imagenes/camara.jpg") 
+
+        adicionarABody(h1);
+        adicionarABody(h2FrontEnd);
+        adicionarABody(h2Noticias);
+        adicionarABody(ul);
+        adicionarABody(imagen);
+
+    </script>
+
+
+</body>
+</html>
